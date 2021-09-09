@@ -1,0 +1,27 @@
+.chatbox{
+    width: 500px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: 1;
+    margin: 0 auto;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: 0.5;
+}
+
+.communi-box{
+    text-align: center;
+    display: 0.5;
+}
+
+.communi-chat{
+    border-radius: 3px;
+    border: 1px solid blue;
+}
