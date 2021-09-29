@@ -5,25 +5,32 @@
         <title>
             day11
         </title>
-        <link rel="stylesheet" href="./static/style/style1.css" />
+        <style>
+            img{
+                background-color: transparent;
+            }
+        </style>
+        <link rel="stylesheet" href="./static/style/style.css" />
     </head>
     <body>
         <div id="back">
             
-            <div class="cat_says" id="background">
+            <div class="says" id="background">
                 심바~
             </div>
             <center>
                 <div>
-                    <img src="./static/image/simba.jpg">
+                    <img class="lion" src="./static/image/simba.png">
                 </div>
             </center>
             <div class="input_layout">
                 <input type="text" id="console" class="input_style" placeholder="메세지를 입력하세요!">
             </div>
-            <div class="button" onclick=check_text()>
-                시키기
-            </div>    
+            <center>
+                <button class="button" onclick=check_text()>
+                    물어보기
+                </button>   
+            </center> 
               
         </div>
         <script src="./practiceday11.js"></script>
