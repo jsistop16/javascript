@@ -81,3 +81,69 @@ function check_text() {
     }
 }
 
+
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true,
+});
+
+/*typewriter 라이브러리
+    .typeString('Hello World!')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Strings can be removed')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('<strong>altered!</strong>')
+    .pauseFor(2500)
+    .start();
+*/
+
+function count(){
+    if (k==1){
+        typewriter
+            .typeString("1번물어봤다")
+            .pauseFor(2500)
+            .deleteAll()
+            .start()
+    }
+
+    else if (k==2){
+        
+        typewriter
+            .typeString("2번물어봤다")
+            .pauseFor(2500)
+            .deleteAll()
+            .start()
+    }
+    
+    else if (k==3){
+        
+        typewriter
+            .typeString("3번물어봤다")
+            .pauseFor(2500)
+            .deleteAll()
+            .start()
+    }
+    
+    else if (k==4){
+        
+        typewriter
+            .typeString("4번물어봤다")
+            .pauseFor(2500)
+            .deleteAll()
+            .start()
+    }
+    
+    else if (k==5){
+        
+        typewriter
+            .typeString("5번 다 물어봤다 좀 귀찮은가보다")
+            .pauseFor(2500)
+            .deleteAll()
+            .start()
+    }
+}
+
+document.getElementById("button").addEventListener("click", count);
